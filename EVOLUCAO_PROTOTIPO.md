@@ -107,3 +107,6 @@ Garantia de estabilidade nas funções de cálculo do carrinho.
 
 ### [2026-04-27]
 Documentação técnica completa do estado atual do backend.
+
+### [2026-03-14]
+Organização de pastas e separação de componentes globais.
