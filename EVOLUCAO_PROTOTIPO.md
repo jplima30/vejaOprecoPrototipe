@@ -110,3 +110,6 @@ Documentação técnica completa do estado atual do backend.
 
 ### [2026-03-14]
 Organização de pastas e separação de componentes globais.
+
+### [2026-03-15]
+Análise de performance para extração em larga escala.
