@@ -113,3 +113,6 @@ Organização de pastas e separação de componentes globais.
 
 ### [2026-03-15]
 Análise de performance para extração em larga escala.
+
+### [2026-03-17]
+Criação dos tokens de design para consistência da UI.
