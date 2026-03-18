@@ -5,3 +5,6 @@ Setup inicial do ambiente de desenvolvimento.
 
 ### [2026-03-16]
 Criação do Header e barra de busca.
+
+### [2026-03-18]
+Ícones vetoriais de categorias.
