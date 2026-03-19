@@ -32,3 +32,6 @@ Visualização analítica de preços.
 
 ### [2026-04-09]
 Ajustes finais e documentação.
+
+### [2026-03-19]
+Refinamento dos seletores CSS para maior precisão na captura de preços.
