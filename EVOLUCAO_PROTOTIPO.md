@@ -35,3 +35,6 @@ Ajustes finais e documentação.
 
 ### [2026-03-19]
 Refinamento dos seletores CSS para maior precisão na captura de preços.
+
+### [2026-03-20]
+Implementação de transições suaves entre a Vitrine e o Carrinho.
