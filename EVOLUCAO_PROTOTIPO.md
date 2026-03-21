@@ -8,3 +8,6 @@ Criação do Header e barra de busca.
 
 ### [2026-03-18]
 Ícones vetoriais de categorias.
+
+### [2026-03-21]
+Estruturação do JSON de produtos.
