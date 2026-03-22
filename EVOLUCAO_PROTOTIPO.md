@@ -38,3 +38,6 @@ Refinamento dos seletores CSS para maior precisão na captura de preços.
 
 ### [2026-03-20]
 Implementação de transições suaves entre a Vitrine e o Carrinho.
+
+### [2026-03-22]
+Sincronização da paleta de cores entre componentes mobile.
