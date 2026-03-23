@@ -41,3 +41,6 @@ Implementação de transições suaves entre a Vitrine e o Carrinho.
 
 ### [2026-03-22]
 Sincronização da paleta de cores entre componentes mobile.
+
+### [2026-03-23]
+Criação da visualização expandida com informações nutricionais.
