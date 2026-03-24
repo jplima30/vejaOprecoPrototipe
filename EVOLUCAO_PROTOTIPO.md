@@ -11,3 +11,6 @@ Criação do Header e barra de busca.
 
 ### [2026-03-21]
 Estruturação do JSON de produtos.
+
+### [2026-03-24]
+Grid de ofertas e formatação de preços.
