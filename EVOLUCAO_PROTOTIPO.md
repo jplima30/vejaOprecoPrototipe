@@ -44,3 +44,6 @@ Sincronização da paleta de cores entre componentes mobile.
 
 ### [2026-03-23]
 Criação da visualização expandida com informações nutricionais.
+
+### [2026-03-25]
+Redução do tempo de carregamento do Playwright para triagem local.
