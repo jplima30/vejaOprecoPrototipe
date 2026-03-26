@@ -47,3 +47,6 @@ Criação da visualização expandida com informações nutricionais.
 
 ### [2026-03-25]
 Redução do tempo de carregamento do Playwright para triagem local.
+
+### [2026-03-26]
+Desenvolvimento da interface de feedback direto no app.
