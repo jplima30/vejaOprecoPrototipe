@@ -14,3 +14,6 @@ Estruturação do JSON de produtos.
 
 ### [2026-03-24]
 Grid de ofertas e formatação de preços.
+
+### [2026-03-27]
+Seletor de datas vertical.
