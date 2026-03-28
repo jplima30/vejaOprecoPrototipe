@@ -50,3 +50,6 @@ Redução do tempo de carregamento do Playwright para triagem local.
 
 ### [2026-03-26]
 Desenvolvimento da interface de feedback direto no app.
+
+### [2026-03-28]
+Melhoria na resiliência do motor de busca de ofertas.
