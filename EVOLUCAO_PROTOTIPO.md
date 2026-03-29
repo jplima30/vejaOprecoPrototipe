@@ -53,3 +53,6 @@ Desenvolvimento da interface de feedback direto no app.
 
 ### [2026-03-28]
 Melhoria na resiliência do motor de busca de ofertas.
+
+### [2026-03-29]
+Registro das decisões de design tomadas durante a prototipagem.
