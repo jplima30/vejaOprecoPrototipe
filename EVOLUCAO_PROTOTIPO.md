@@ -17,3 +17,6 @@ Grid de ofertas e formatação de preços.
 
 ### [2026-03-27]
 Seletor de datas vertical.
+
+### [2026-03-31]
+Slider de produtos sazonais.
