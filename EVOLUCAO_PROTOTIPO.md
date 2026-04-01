@@ -59,3 +59,6 @@ Registro das decisões de design tomadas durante a prototipagem.
 
 ### [2026-03-30]
 Segurança e organização das chaves de API e bancos de dados.
+
+### [2026-04-01]
+Melhoria na lógica de troca automática de slides e progresso.
