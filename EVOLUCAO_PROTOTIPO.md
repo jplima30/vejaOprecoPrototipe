@@ -62,3 +62,6 @@ Segurança e organização das chaves de API e bancos de dados.
 
 ### [2026-04-01]
 Melhoria na lógica de troca automática de slides e progresso.
+
+### [2026-04-02]
+Filtro rigoroso para evitar poluição de dados no banco de dados.
