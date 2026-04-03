@@ -20,3 +20,6 @@ Seletor de datas vertical.
 
 ### [2026-03-31]
 Slider de produtos sazonais.
+
+### [2026-04-03]
+Lógica de persistência local.
