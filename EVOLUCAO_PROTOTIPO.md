@@ -65,3 +65,6 @@ Melhoria na lógica de troca automática de slides e progresso.
 
 ### [2026-04-02]
 Filtro rigoroso para evitar poluição de dados no banco de dados.
+
+### [2026-04-04]
+Teste de contraste e legibilidade para o tema escuro.
