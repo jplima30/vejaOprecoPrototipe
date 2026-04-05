@@ -68,3 +68,6 @@ Filtro rigoroso para evitar poluição de dados no banco de dados.
 
 ### [2026-04-04]
 Teste de contraste e legibilidade para o tema escuro.
+
+### [2026-04-05]
+Organização automática dos screenshots por data e janela.
