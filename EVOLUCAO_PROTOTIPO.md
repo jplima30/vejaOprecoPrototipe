@@ -23,3 +23,6 @@ Slider de produtos sazonais.
 
 ### [2026-04-03]
 Lógica de persistência local.
+
+### [2026-04-06]
+Geração de link dinâmico.
