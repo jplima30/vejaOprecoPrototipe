@@ -71,3 +71,6 @@ Teste de contraste e legibilidade para o tema escuro.
 
 ### [2026-04-05]
 Organização automática dos screenshots por data e janela.
+
+### [2026-04-07]
+Lógica visual para interação com as sugestões dos usuários.
