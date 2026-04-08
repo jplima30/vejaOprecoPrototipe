@@ -26,3 +26,6 @@ Lógica de persistência local.
 
 ### [2026-04-06]
 Geração de link dinâmico.
+
+### [2026-04-08]
+Visualização analítica de preços.
