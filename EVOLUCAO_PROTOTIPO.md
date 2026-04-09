@@ -29,3 +29,6 @@ Geração de link dinâmico.
 
 ### [2026-04-08]
 Visualização analítica de preços.
+
+### [2026-04-09]
+Ajustes finais e documentação.
