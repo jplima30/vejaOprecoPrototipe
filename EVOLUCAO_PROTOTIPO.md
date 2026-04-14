@@ -74,3 +74,6 @@ Organização automática dos screenshots por data e janela.
 
 ### [2026-04-07]
 Lógica visual para interação com as sugestões dos usuários.
+
+### [2026-04-14]
+Otimização de escritas em lote para reduzir consumo de API.
