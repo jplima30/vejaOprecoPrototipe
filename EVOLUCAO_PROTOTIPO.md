@@ -77,3 +77,6 @@ Lógica visual para interação com as sugestões dos usuários.
 
 ### [2026-04-14]
 Otimização de escritas em lote para reduzir consumo de API.
+
+### [2026-04-15]
+Simulação de variação de preços baseada no histórico de triagem.
