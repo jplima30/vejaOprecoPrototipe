@@ -83,3 +83,6 @@ Simulação de variação de preços baseada no histórico de triagem.
 
 ### [2026-04-16]
 Garantia de que ofertas repetidas não gerem novas entradas.
+
+### [2026-04-17]
+Pesquisa de bibliotecas para geração de relatórios de compras.
