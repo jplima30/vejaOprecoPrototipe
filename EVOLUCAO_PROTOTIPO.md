@@ -86,3 +86,6 @@ Garantia de que ofertas repetidas não gerem novas entradas.
 
 ### [2026-04-17]
 Pesquisa de bibliotecas para geração de relatórios de compras.
+
+### [2026-04-19]
+Dashboard básico para acompanhar falhas na triagem automatizada.
