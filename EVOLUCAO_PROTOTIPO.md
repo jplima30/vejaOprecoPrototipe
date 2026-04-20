@@ -89,3 +89,6 @@ Pesquisa de bibliotecas para geração de relatórios de compras.
 
 ### [2026-04-19]
 Dashboard básico para acompanhar falhas na triagem automatizada.
+
+### [2026-04-20]
+Melhoria no feedback visual durante a digitação.
