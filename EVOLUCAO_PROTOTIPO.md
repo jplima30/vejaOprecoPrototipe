@@ -92,3 +92,6 @@ Dashboard básico para acompanhar falhas na triagem automatizada.
 
 ### [2026-04-20]
 Melhoria no feedback visual durante a digitação.
+
+### [2026-04-21]
+Sincronização do backend com o ambiente de produção Firebase.
