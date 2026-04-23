@@ -95,3 +95,6 @@ Melhoria no feedback visual durante a digitação.
 
 ### [2026-04-21]
 Sincronização do backend com o ambiente de produção Firebase.
+
+### [2026-04-23]
+Preparação dos textos para suporte multi-idioma.
