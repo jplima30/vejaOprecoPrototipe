@@ -98,3 +98,6 @@ Sincronização do backend com o ambiente de produção Firebase.
 
 ### [2026-04-23]
 Preparação dos textos para suporte multi-idioma.
+
+### [2026-04-24]
+Proteção das coleções de ofertas e usuários.
