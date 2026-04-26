@@ -101,3 +101,6 @@ Preparação dos textos para suporte multi-idioma.
 
 ### [2026-04-24]
 Proteção das coleções de ofertas e usuários.
+
+### [2026-04-26]
+Garantia de estabilidade nas funções de cálculo do carrinho.
