@@ -153,7 +153,7 @@ const SUPERMARKETS = [
   { id: 'atacadao', name: 'Atacadão', promoStart: 14, promoEnd: 16, color: 'text-green-700', brandColor: '#05851f', brandTextColor: '#dc910b', logo: getLogo('atacadao.com.br'), distance: 2.5, pos: { top: '65%', left: '45%' }, flyers: [] },
   { id: 'formosa', name: 'Formosa', promoStart: 15, promoEnd: 17, color: 'text-green-700', brandColor: '#030065', brandTextColor: '#0b27f3', logo: getLogo('formosanet.com.br'), distance: 3.1, pos: { top: '55%', left: '75%' }, flyers: ['https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&q=80'] },
   { id: 'mateus', name: 'Mateus', promoStart: 13, promoEnd: 14, color: 'text-green-700', brandColor: '#040988', brandTextColor: '#ff0000', logo: getLogo('grupomateus.com.br'), distance: 4.2, pos: { top: '75%', left: '25%' }, flyers: ['https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80'] },
-  { id: 'economico', name: 'Econômico', promoStart: 18, promoEnd: 19, color: 'text-gray-600', brandColor: '#f60505', brandNameColor: '#ffffff', logo: getLogo('economicoatacadao.com.br'), distance: 5.8, pos: { top: '20%', left: '80%' }, flyers: ['https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80'] },
+  { id: 'economico', name: 'Econômico', promoStart: 18, promoEnd: 19, color: 'text-gray-600', brandColor: '#f60505', brandTextColor: '#ff0000', brandNameColor: '#ffffff', logo: getLogo('economicoatacadao.com.br'), distance: 5.8, pos: { top: '20%', left: '80%' }, flyers: ['https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80'] },
   { id: 'precobaixo', name: 'Preço Baixo', promoStart: 16, promoEnd: 19, color: 'text-green-700', brandColor: '#0f0496', brandTextColor: '#0029ff', logo: getLogo('precobaixoatacarejo.com.br'), distance: 6.5, pos: { top: '85%', left: '65%' }, flyers: [] },
   { id: 'guerreirao', name: 'Guerreirão BR 316', promoStart: 14, promoEnd: 18, color: 'text-green-700', brandColor: '#0f3cd0', brandTextColor: '#1815d7', brandNameColor: '#fffd00', logo: getLogo('guerreirao.com.br'), distance: 8.4, pos: { top: '15%', left: '20%' }, flyers: ['https://images.unsplash.com/photo-1578916171728-46686eac8d58?w=800&q=80'] },
 ];
@@ -318,7 +318,8 @@ export default function App() {
   const [isAutoScrolling, setIsAutoScrolling] = useState(true);
   const [selectedFlyerMarket, setSelectedFlyerMarket] = useState<string | null>(null);
 
-  // Shopping Cart State
+  // Shopping Cart & Search State
+  const [searchQuery, setSearchQuery] = useState('');
   const [cart, setCart] = useState<{ product: typeof PRODUCTS[0], quantity: number, checked?: boolean }[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -510,7 +511,8 @@ export default function App() {
 
   const currentCategoryProducts = PRODUCTS.filter(p => 
     p.category === activeCategory && 
-    (activeSupermarkets.length === 0 || activeSupermarkets.includes(p.supermarketId))
+    (activeSupermarkets.length === 0 || activeSupermarkets.includes(p.supermarketId)) &&
+    (searchQuery === '' || p.name.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
   const toggleSupermarket = (id: string) => {
@@ -556,12 +558,24 @@ export default function App() {
           {/* Bottom Row: Search, Profile & Cart */}
           <div className="flex items-center gap-3">
             {/* Search Bar */}
-            <div className="flex-1 bg-white rounded-full h-12 flex items-center px-4 justify-between shadow-sm">
-              <span className="text-gray-400 text-sm">Buscar...</span>
-              <div className="bg-[#E85D1A] w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0">
+            <form 
+              className="flex-1 bg-white rounded-full h-12 flex items-center px-4 justify-between shadow-sm"
+              onSubmit={(e) => {
+                e.preventDefault();
+                (document.activeElement as HTMLElement)?.blur();
+              }}
+            >
+              <input 
+                type="text" 
+                placeholder="Buscar..." 
+                className="text-[#1C1C1E] text-sm w-full bg-transparent outline-none pr-3 placeholder-gray-400 font-medium" 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              <button type="submit" className="bg-[#E85D1A] w-8 h-8 rounded-full flex items-center justify-center text-white shrink-0 cursor-pointer hover:bg-orange-600 transition-colors">
                 <Search size={16} strokeWidth={2} />
-              </div>
-            </div>
+              </button>
+            </form>
             
             {/* User Profile */}
             <button 
